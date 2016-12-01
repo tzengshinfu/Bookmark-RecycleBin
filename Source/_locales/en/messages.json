@@ -1,0 +1,38 @@
+{
+  "appName": {
+    "message": "Bookmark RecycleBin"
+  },
+  "appDesc": {
+    "message": "Right-click on one link and add it to your Bookmarks folder."
+  },
+  "appTip": {
+    "message": "Please set the folder you want to save Bookmarks first."
+  },
+  "appAlert": {
+    "message": "Not yet set the folder you want to save Bookmarks!"
+  },  
+  "appSaved": {
+    "message": "Saved"
+  },
+  "appAdded": {
+    "message": "Added"
+  },
+  "appSaveSuccess": {
+    "message": "Save success! "
+  },
+  "appFolder": {
+    "message": " folder: "
+  },
+  "appNotYet": {
+    "message": "Not yet set..."
+  },
+  "appBookmarkFolder": {
+    "message": "Now Your Bookmarks folder is:"
+  },
+  "appSavedFolder": {
+    "message": "Input folder name you want to save Bookmarks:"
+  },
+  "appRecycleBinCleared": {
+    "message": "RecycleBin Cleard!"
+  }
+}

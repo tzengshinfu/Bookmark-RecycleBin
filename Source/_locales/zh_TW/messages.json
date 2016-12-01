@@ -1,0 +1,38 @@
+{
+  "appName": {
+    "message": "Bookmark RecycleBin"
+  },
+  "appDesc": {
+    "message": "書籤的資源回收筒。"
+  },
+  "appTip": {
+    "message": "請先輸入你想要回收書籤的資料夾名稱。"
+  },
+  "appAlert": {
+    "message": "尚未設定你想要回收書籤的資料夾！"
+  },
+  "appSaved": {
+    "message": "儲存"
+  },
+  "appAdded": {
+    "message": "新增"
+  },
+  "appSaveSuccess": {
+    "message": "設定成功！ "
+  },
+  "appFolder": {
+    "message": " 資料夾： "
+  },
+  "appNotYet": {
+    "message": "尚未設定..."
+  },
+  "appBookmarkFolder": {
+    "message": "回收書籤存放於："
+  },
+  "appSavedFolder": {
+    "message": "輸入你想要回收書籤的資料夾名稱："
+  },
+  "appRecycleBinCleared": {
+    "message": "資源回收筒已清空！"
+  }
+}

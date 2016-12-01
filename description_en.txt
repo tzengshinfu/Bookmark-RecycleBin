@@ -1,0 +1,7 @@
+Accidentally deleted your bookmarks?
+Don't worry! Bookmark RecycleBin can help you restore them.
+You just need to set the recycle bin folder.
+
+*When you delete bookmarks, them will be moved to recycle bin.
+*When you delete bookmarks in recycle bin, them will be gone really.
+*When you delete recycle bin, it will be empty.
