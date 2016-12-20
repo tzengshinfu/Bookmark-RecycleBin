@@ -5,3 +5,6 @@ You just need to set the recycle bin folder.
 *When you delete bookmarks, them will be moved to recycle bin.
 *When you delete bookmarks in recycle bin, them will be gone really.
 *When you delete recycle bin, it will be empty.
+
+Bug fix:
+v1.0.1: fix duplicate recycle bin problem for Google Chrome Sync.

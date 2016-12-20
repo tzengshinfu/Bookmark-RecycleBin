@@ -1,6 +1,6 @@
 function saveFolderName() {
     let folder_name = document.getElementById("folder_name").value;
-    let folderName = folder_name != "" ? folder_name : ".";
+    let folderName = folder_name !== "" ? folder_name : ".";
     let parentId = "1";
 
     chrome.bookmarks.search({"title": folderName}, function(results) {
@@ -16,15 +16,22 @@ function saveFolderName() {
 }
 
 function saveAndClose(fId, fName, sMessage) {
-    localStorage["folderId"] = fId;
-    localStorage["folderName"] = fName;
+    localStorage.folderId = fId;
+    localStorage.folderName = fName;
     alert(chrome.i18n.getMessage("appSaveSuccess") + sMessage + chrome.i18n.getMessage("appFolder") + fName);
     window.open("", "_self", "");
     window.close();
 }
 
+function showTip() {
+	if (typeof localStorage.folderId === "undefined") {
+    alert(chrome.i18n.getMessage("appTip"));
+	}
+}
 
 document.getElementById("save").addEventListener("click", saveFolderName);
-document.getElementById("folderId").innerText = typeof localStorage["folderName"] !== "undefined" ? localStorage["folderName"] : chrome.i18n.getMessage("appNotYet");
+document.getElementById("folderId").innerText = typeof localStorage.folderName !== "undefined" ? localStorage.folderName : chrome.i18n.getMessage("appNotYet");
 document.getElementById("bookmarkFolder").innerText = chrome.i18n.getMessage("appBookmarkFolder");
 document.getElementById("savedFolder").innerText = chrome.i18n.getMessage("appSavedFolder");
+
+showTip();
