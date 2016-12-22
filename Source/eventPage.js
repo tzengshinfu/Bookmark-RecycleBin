@@ -7,7 +7,7 @@ function onInitial() {
 function recycleBookmark(deletedBookmarkId, deletedBookmarkInfo) {
     if (isfolderIdExisted() === true) {
         //刪除資源回收筒資料夾
-        if (deletedBookmarkId === localStorage.folderId) {
+        if (typeof deletedBookmarkInfo.node.url === "undefined" && deletedBookmarkInfo.node.title === localStorage.folderName && deletedBookmarkInfo.parentId === "1") {
             window.open("resetBinFolder.html");
         }
 

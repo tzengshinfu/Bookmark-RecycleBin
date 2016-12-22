@@ -8,3 +8,4 @@ You just need to set the recycle bin folder.
 
 Bug fix:
 v1.0.1: fix duplicate recycle bin problem for Google Chrome Sync.
+v1.0.2: fix v1.0.1 bug.
